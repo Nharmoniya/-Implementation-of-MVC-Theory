@@ -1,0 +1,21 @@
+
+#app2 .tar-bar{
+    display: flex;
+}
+#app2 .tar-bar >li{
+    border: 3px solid black;
+    width: 50%;
+}
+#app2 .tar-content{
+    display: flex;
+}
+#app2 .tar-content >li{
+   display: none;
+}
+#app2 .tar-content >li.active{
+    display: block;
+}
+#app2 .tar-bar >li.selected{
+    background-color: rgb(253,221,155);
+    color: white;
+}

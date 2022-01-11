@@ -1,0 +1,12 @@
+body > .page{
+    display: flex;
+    flex-wrap: wrap;
+}
+body > .page > section{
+    width: 50%;
+    height: 400px;
+    border:1px solid gray;
+}
+
+
+
